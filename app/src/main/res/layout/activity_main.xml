@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="18dp"
+              android:orientation="vertical"
+              tools:context="com.agussuhardi.test.nusantech.MainActivity">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/txt_1" android:layout_weight="1"/>
+        <CheckBox
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/chk_1" android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/txt_2" android:layout_weight="1"/>
+        <CheckBox
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/chk_2" android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/txt_3" android:layout_weight="1"/>
+        <CheckBox
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/chk_3" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_plus"
+                android:layout_weight="1"/>
+        <Button
+                android:text="-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_minus"
+                android:layout_weight="1"/>
+        <Button
+                android:text="X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_x"
+                android:layout_weight="1"/>
+        <Button
+                android:text="/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_divide"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="159dp">
+        <TextView
+                android:text="Hasil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_weight="1"/>
+        <TextView
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewResult"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
